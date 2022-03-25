@@ -1,0 +1,71 @@
+.body {
+    background-color: #D8D8D8;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+
+.nav-color {
+    background-color: #2C2C2C;
+}
+
+span {
+    font-size: 0.5px;
+    
+}
+
+.caro-over {
+    position: absolute;
+    right: 25px;
+    bottom: 0px;
+}
+
+.dash {
+    font-size: 30px;
+}
+
+
+.cardpadding{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.p-class {
+    margin-bottom: 0px;
+    font-size: 0.8em;
+}
+.card-icon{
+    margin-bottom: 0px;
+    font-size: 0.6em;
+}
+
+.per {
+    position: absolute;
+    bottom: 8px;
+    right: 58px;
+    background-color: #78387B;
+    margin-bottom: px;
+    color: white;
+    font-size: 1em;
+    
+}
+
+.oldprice {
+    position: absolute;
+    bottom: 8px;
+    right: 9px;
+    font-size: 0.7em;
+}
+
+.first-part {
+    font-size: 0.9em;
+}
