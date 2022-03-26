@@ -1,9 +1,10 @@
-.body {
+body {
     background-color: #D8D8D8;
+    
 }
 
 a {
-    font-family: 'Times New Roman', Times, serif;
+    
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -16,10 +17,7 @@ a {
     background-color: #2C2C2C;
 }
 
-span {
-    font-size: 0.5px;
-    
-}
+
 
 .caro-over {
     position: absolute;
@@ -56,6 +54,7 @@ span {
     margin-bottom: px;
     color: white;
     font-size: 1em;
+    border-radius: 3px;
     
 }
 
@@ -68,4 +67,61 @@ span {
 
 .first-part {
     font-size: 0.9em;
+}
+
+.card, .carousel{
+    box-shadow: 1px 1px 1px 1px #ccc!important;
+}
+
+.carousel-control-prev {
+    transform: translateX(-100%);
+}
+
+.carousel-control-next {
+    transform: translateX(100%);
+}
+
+.carousel-indicators {
+    transform: translateY(200%);
+}
+
+
+.week {
+    position: absolute;
+    color: white;
+    font-size: 1.2em;
+    bottom: 400px;
+    left: 100px;
+    font-weight: 700;
+    
+
+}
+
+.top {
+    position: absolute;
+    color: yellow;
+    font-size: 0.8em;
+    bottom: 250px;
+    left: 130px;
+    font-weight: 500;
+}
+
+.ppp {
+    position: absolute;
+    color: yellow;
+    font-size: 2.8em;
+    bottom: 200px;
+    left: 90px;
+    font-weight: 500;
+
+}
+
+.last{
+    position: absolute;
+    color: white;
+    font-size: 0.6em;
+    bottom: 5px;
+    left: 90px;
+    font-weight: 700;
+    
 }
